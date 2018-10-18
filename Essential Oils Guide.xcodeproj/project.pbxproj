@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041CA7EE21386342006FCF29 /* AddEditOilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CA7ED21386342006FCF29 /* AddEditOilViewController.swift */; };
 		043FBAD7212FB031006ED948 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FBAD6212FB031006ED948 /* AppDelegate.swift */; };
-		043FBAD9212FB031006ED948 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FBAD8212FB031006ED948 /* ViewController.swift */; };
 		043FBADC212FB031006ED948 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043FBADA212FB031006ED948 /* Main.storyboard */; };
 		043FBADE212FB032006ED948 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043FBADD212FB032006ED948 /* Assets.xcassets */; };
 		043FBAE1212FB032006ED948 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043FBADF212FB032006ED948 /* LaunchScreen.storyboard */; };
+		044D0CB9215FDC0200242550 /* IllnessesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D0CB8215FDC0200242550 /* IllnessesTableViewController.swift */; };
+		044D0CBB215FDDE900242550 /* IllnessTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D0CBA215FDDE900242550 /* IllnessTableViewCell.swift */; };
+		0456F414213456E2007150D4 /* EssentialOilsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456F413213456E2007150D4 /* EssentialOilsTableViewController.swift */; };
+		0456F416213466C6007150D4 /* EssentialOilsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456F415213466C6007150D4 /* EssentialOilsTableViewCell.swift */; };
+		04C78F322130D8B600DF8FDE /* EssentialOilSingle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C78F312130D8B600DF8FDE /* EssentialOilSingle.swift */; };
+		04C78F342130D8D700DF8FDE /* EssentialOilBlend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C78F332130D8D700DF8FDE /* EssentialOilBlend.swift */; };
+		04C78F362130DB8000DF8FDE /* Illnesses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C78F352130DB8000DF8FDE /* Illnesses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		041CA7ED21386342006FCF29 /* AddEditOilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditOilViewController.swift; sourceTree = "<group>"; };
 		043FBAD3212FB031006ED948 /* Essential Oils Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Essential Oils Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		043FBAD6212FB031006ED948 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		043FBAD8212FB031006ED948 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		043FBADB212FB031006ED948 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		043FBADD212FB032006ED948 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		043FBAE0212FB032006ED948 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		043FBAE2212FB032006ED948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044D0CB8215FDC0200242550 /* IllnessesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IllnessesTableViewController.swift; sourceTree = "<group>"; };
+		044D0CBA215FDDE900242550 /* IllnessTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IllnessTableViewCell.swift; sourceTree = "<group>"; };
+		0456F413213456E2007150D4 /* EssentialOilsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialOilsTableViewController.swift; sourceTree = "<group>"; };
+		0456F415213466C6007150D4 /* EssentialOilsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialOilsTableViewCell.swift; sourceTree = "<group>"; };
+		04C78F312130D8B600DF8FDE /* EssentialOilSingle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialOilSingle.swift; sourceTree = "<group>"; };
+		04C78F332130D8D700DF8FDE /* EssentialOilBlend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialOilBlend.swift; sourceTree = "<group>"; };
+		04C78F352130DB8000DF8FDE /* Illnesses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Illnesses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +69,15 @@
 			isa = PBXGroup;
 			children = (
 				043FBAD6212FB031006ED948 /* AppDelegate.swift */,
-				043FBAD8212FB031006ED948 /* ViewController.swift */,
 				043FBADA212FB031006ED948 /* Main.storyboard */,
+				044D0CB8215FDC0200242550 /* IllnessesTableViewController.swift */,
+				044D0CBA215FDDE900242550 /* IllnessTableViewCell.swift */,
+				041CA7ED21386342006FCF29 /* AddEditOilViewController.swift */,
+				0456F415213466C6007150D4 /* EssentialOilsTableViewCell.swift */,
+				0456F413213456E2007150D4 /* EssentialOilsTableViewController.swift */,
+				04C78F312130D8B600DF8FDE /* EssentialOilSingle.swift */,
+				04C78F332130D8D700DF8FDE /* EssentialOilBlend.swift */,
+				04C78F352130DB8000DF8FDE /* Illnesses.swift */,
 				043FBADD212FB032006ED948 /* Assets.xcassets */,
 				043FBADF212FB032006ED948 /* LaunchScreen.storyboard */,
 				043FBAE2212FB032006ED948 /* Info.plist */,
@@ -96,6 +117,7 @@
 				TargetAttributes = {
 					043FBAD2212FB031006ED948 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -135,8 +157,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				043FBAD9212FB031006ED948 /* ViewController.swift in Sources */,
 				043FBAD7212FB031006ED948 /* AppDelegate.swift in Sources */,
+				041CA7EE21386342006FCF29 /* AddEditOilViewController.swift in Sources */,
+				0456F414213456E2007150D4 /* EssentialOilsTableViewController.swift in Sources */,
+				0456F416213466C6007150D4 /* EssentialOilsTableViewCell.swift in Sources */,
+				04C78F322130D8B600DF8FDE /* EssentialOilSingle.swift in Sources */,
+				04C78F362130DB8000DF8FDE /* Illnesses.swift in Sources */,
+				044D0CBB215FDDE900242550 /* IllnessTableViewCell.swift in Sources */,
+				044D0CB9215FDC0200242550 /* IllnessesTableViewController.swift in Sources */,
+				04C78F342130D8D700DF8FDE /* EssentialOilBlend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +318,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Ure.Adam.Essential-Oils-Guide";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -307,7 +336,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Ure.Adam.Essential-Oils-Guide";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
